@@ -2,12 +2,13 @@ package equipe25.churninsight_backend.model.pais.enums;
 
 public enum PaisEnum {
 
-    private final String nome;
-
     FRANCE("France"),
     GERMANY("Germany"),
     SPAIN("Spain");
 
+    private final String nome;
+
+    
     PaisEnum(String nome) {
         this.nome = nome;
     }
